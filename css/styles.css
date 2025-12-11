@@ -1,0 +1,435 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/Gilroy-Regular.eot");
+  src: local("../font"), local("../font"),
+    url("../font/Gilroy-Regular.eot") format("embedded-opentype"),
+    url("../font/Gilroy-Regular.woff2") format("woff2"),
+    url("../font/Gilroy-Regular.woff") format("woff"),
+    url("../font/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  color: #0c0c0c;
+  background: #fbfbfb;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.section-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+/* ----------HEADER----------- */
+
+.header {
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.header-navigation {
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #0c0c0c;
+}
+
+.social-list {
+}
+
+.social-item {
+}
+
+.social-link {
+}
+
+.social-img {
+}
+
+/* ----------MAIN-SLOGAN----------- */
+
+.slogan {
+}
+
+.slogan-title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.875;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.slogan-title span {
+  color: #3350e9;
+}
+
+.slogan-text {
+}
+
+.slogan-team-photo {
+}
+
+.slogan-scroll {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.slogan-img {
+}
+
+/* ----------MAIN-ABOUT US----------- */
+
+.about {
+}
+
+.about-title {
+}
+
+.about-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  background: #3350e9;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+}
+
+.about-link:hover,
+.about-link:focus {
+  background: #1f3cd4;
+}
+
+.about-img {
+}
+
+/* ----------MAIN-CATALOG---------- */
+
+.catalog {
+}
+
+.catalog-title {
+}
+
+.catalog-list {
+}
+
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 368px;
+  height: 414px;
+  background: #f3f3f3;
+}
+
+.catalog-link {
+}
+
+.catalog-img {
+}
+
+.catalog-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.catalog-price {
+}
+
+/* ----------MAIN-TAGLINE---------- */
+
+.tagline {
+}
+
+.tagline-title {
+  color: #fbfbfb;
+}
+
+.tagline-title span {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.tagline-link {
+}
+
+.taglineimg {
+}
+
+/* ----------MAIN-SALE---------- */
+
+.sale {
+}
+
+.sale-title {
+}
+
+.sale-photo-list {
+}
+
+.sale-photo-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
+  width: 132px;
+  height: 132px;
+  background: #f3f3f3;
+}
+
+.sale-photo-i {
+}
+
+.sale-figure {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 50px;
+  width: 428px;
+  height: 558px;
+  background: #f3f3f3;
+}
+
+.bigphoto {
+}
+
+/* ----------MAIN-SALE-DESCRIPTION----------- */
+
+.sale-description {
+  border-radius: 50px;
+  width: 530px;
+  height: 558px;
+  background: #3350e9;
+}
+
+.sale-description-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.sale-description-product {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-description-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.sale-description-price span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-description-text {
+  color: rgba(251, 251, 251, 0.7);
+}
+
+.sale-description-list {
+}
+
+.sale-description-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 145px;
+  height: 34px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+/* ----------MAIN-REVIEWS---------- */
+
+.reviews {
+}
+
+.reviews-title {
+}
+
+.reviews-list {
+}
+
+.reviews-card {
+  border-radius: 30px;
+  padding: 32px 36px;
+  width: 370px;
+  height: 272px;
+  background: #f3f3f3;
+}
+
+.reviews-card-img {
+}
+
+.reviews-card-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+}
+
+.reviews-card-text {
+  text-align: center;
+}
+
+/* ----------MAIN-CONTACT US---------- */
+
+.contact {
+}
+
+.contact-title {
+}
+
+.contact-text {
+}
+
+.contact-img {
+}
+
+/* ----------MAIN-FOOTER---------- */
+
+.footer {
+  border-radius: 30px;
+  padding: 40px 40px 28px;
+  width: 1216px;
+  height: 400px;
+  background: #0c0c0c;
+}
+
+.footer-logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.footer-social {
+}
+
+.footer-social-item {
+}
+
+.footer-social-link {
+}
+
+.footer-social-img {
+}
+
+.footer-nav {
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  opacity: 0.8;
+}
+
+.footer-subtitle {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-adress--link {
+  border-radius: 30px;
+  padding: 40px 40px 28px;
+  width: 1216px;
+  height: 400px;
+  color: #fbfbfb;
+}
+
+.footer-adress-post {
+}
+
+.footer-endlist {
+}
+
+.footer-endlist-item {
+}
+
+.footer-endlist-link {
+}
